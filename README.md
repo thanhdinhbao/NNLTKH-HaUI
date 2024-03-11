@@ -1,2 +1,2 @@
 # NNLTKH-HaUI
-Ngôn ngữ lập trình khoa học HaUI
+Scientific Programming Language HaUI
