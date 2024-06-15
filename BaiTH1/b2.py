@@ -1,0 +1,11 @@
+import math
+X1 = float(input('X1: '))
+Y1 = float(input('Y1: '))
+X2 = float(input('X2: '))
+Y2 = float(input('Y2: '))
+D = math.sqrt((X1-X2)**2 + (Y1-Y2)**2)
+M = math.fabs(X2-X1) + abs(Y2-Y1)
+C = 1 - (X1*X2 + Y1*Y2)/(math.sqrt(X1**2+Y1**2)*math.sqrt(X2**2+Y2**2))
+print("Khoang cach Euclidean: ", D)
+print("Khoang cach Manhatan: ", M)
+print("Khoang cach Cosin   : ", C)
